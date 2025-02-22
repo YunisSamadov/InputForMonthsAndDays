@@ -109,7 +109,7 @@ public class InputForMonthsAndDays {
                 System.out.println("Please select day");
                 day = new Scanner(System.in).nextInt();
                 if (day != 0 && day < 32)
-                    System.out.println("That's correct, also there are " + day + " days in November");
+                    System.out.println("That's correct, also there are " + day + " days in December");
                 else
                     System.out.println("Please choose right number");
             default:
